@@ -1,0 +1,138 @@
+header {
+    background-color:rgb(71, 80, 79);
+}
+body {
+background-color:#E6F4F2;
+
+}
+
+
+
+a {
+    font-family: Lato, sans-serif;
+    font-size: 16px;
+    color: black;
+    text-align: left;
+    
+}
+
+#article-container {
+    margin-top: 150px;
+}
+
+.article-card {
+    grid-column-gap: 1%;
+    display: grid;
+    grid-template-columns: 5fr 5fr;
+    justify-content: space-evenly;
+    
+    margin: 30px;
+    /* text-align: center; */
+    position: relative;
+    padding: 60px;
+    background-color: rgba(255, 255, 253, 0.726);;
+    border: 1px solid hsla(0, 0%, 50.2%, .2);
+    border-radius: 5px;
+    box-shadow: 0 11px 20px 0 rgba(0, 0, 0, .1);
+   
+}
+
+.article-frame {
+    align-content: left;
+    width: 420px;
+    
+    margin-top: 150px;
+}
+
+
+#comments-container {
+    grid-column: 2/2;
+    grid-row: 1/2;
+    
+    height: 500px;
+    width: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+
+.comment {
+    font-family: Lato, sans-serif;
+	box-shadow: 4px 4px rgba(76, 79, 80, 0.37);
+    width: auto;
+    height: auto;
+    padding: 15px;
+    background-color: #FBFBFB  ;
+    border-radius: 10px;
+    margin: 5px
+
+    }
+
+    
+
+img {
+    
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    margin: 20px 10px 20px 0px;
+    box-shadow: 5px 5px 5px 5px #7c7a7a;
+    
+}
+
+h1 {
+    text-shadow: 2px 2px #dfdada;
+  }
+
+.articlefake {
+    -webkit-filter: blur(5px);
+}
+
+
+
+
+.website-title {
+    
+    text-align: center;
+    font-size: 18pt;
+    color: rgb(131, 8, 8);
+    border: 5px groove #ccbbbb;
+    top: 0;
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 999;
+    box-shadow: 4px 4px rgb(44, 44, 43);
+    
+}
+
+button, #submit {
+  background: #ccbbbb;
+  border: 0;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: .8rem;
+  font-weight: 700;
+  line-height: 1;
+  outline: 0;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  box-shadow: 4px 4px rgb(110, 110, 87);
+}
+
+.input::placeholder {
+    color: #a2b6d1;
+    font-style: italic;
+    font-size: 15px;
+  }
+
+  .input {
+    
+    border-radius: 10px;
+    border-color: azure;
+    width: 400px;
+    height: 100px;
+    padding: 2px 5px;
+    
+    
+  }
